@@ -1,0 +1,105 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Streamlit local configuration and secrets
+.streamlit/secrets.toml
+
+# Environment variables and credentials
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+*.crt
+
+# IDE and editor files
+.vscode/
+.idea/
+*.code-workspace
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+~$*
+
+# Test and coverage outputs
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# Build and package outputs
+build/
+dist/
+*.egg-info/
+
+# Application-generated data and reports
+Mock_PLM/
+data/
+outputs/
+published_results/
+reports/
+plots/
+session_data/
+uploaded_dxf/
+
+# Uploaded engineering and supplier files
+*.dxf
+*.dwg
+*.step
+*.stp
+*.iges
+*.igs
+*.jt
+*.catpart
+*.catproduct
+
+# Generated result files
+priority_parts*.csv
+publication_register*.csv
+result_summary*.json
+best_layout*.png
+top_four_layouts*.png
+top_four_layouts*.csv
+notification*.eml
+
+# Office files that may contain project or cost data
+*.xlsx
+*.xls
+*.xlsm
+*.docx
+*.pptx
+*.pdf
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# OneDrive and Windows synchronization artifacts
+*.lnk
+~*
